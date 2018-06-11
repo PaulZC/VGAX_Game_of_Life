@@ -16,19 +16,22 @@ For a space that is 'populated':
 For a space that is 'empty' or 'unpopulated':
 - Each cell with three neighbors becomes populated.
 
-A live cell contains 3
-A cell about to die contains 2
-A cell about to spawn contains 1
-An empty/dead cell contains 0
+In this version:
 
-![Glider.gif](https://github.com/PaulZC/VGAX_Game_of_Life/blob/master/Rules_of_Conway's_game_of_life_-_Glider.gif)
-Image credit: https://en.wikipedia.org/wiki/File:Rules_of_Conway%27s_game_of_life_-_Glider.gif
+- A live cell contains the value 3
+- A cell about to die contains the value 2
+- A cell about to spawn contains the value 1
+- An empty/dead cell contains the value 0
 
 Follow [Sandro's excellent instructions](https://github.com/smaffer/vgax)
 but connect your VGA red, green _and_ blue wires to Arduino pin 7 via
 a single 470R resistor (ignore Arduino pin 6). That way you'll get a white
 pixel for cells containing a 3 or a 2 and a black pixel for cells containing
 a 0 or a 1
+
+![Glider.gif](https://github.com/PaulZC/VGAX_Game_of_Life/blob/master/Rules_of_Conway's_game_of_life_-_Glider.gif)
+
+Image credit: https://en.wikipedia.org/wiki/File:Rules_of_Conway%27s_game_of_life_-_Glider.gif
 
 With thanks to: https://bitstorm.org/gameoflife/
 
